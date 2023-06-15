@@ -1,1 +1,16 @@
-
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 255)
+basic.pause(2000)
+maqueen.motorStop(maqueen.Motors.M1)
+basic.pause(1000)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 255)
+basic.pause(2000)
+maqueen.motorStop(maqueen.Motors.M2)
+basic.pause(1000)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 255)
+basic.pause(2000)
+maqueen.motorStop(maqueen.Motors.All)
+maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
+maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOn)
+basic.forever(function () {
+	
+})
